@@ -261,7 +261,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             height: 40px;
             gap: 20px;
             
-      
         }
 
         /* Personalización del input file para ocultar el texto "Sin archivo seleccionado" */
@@ -280,7 +279,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             padding: 0px;
             cursor: pointer; 
             text-align: center;
-             font-size: 14px;
+            font-size: 14px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -293,8 +292,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
 <div class="header">
-    <a href="#">Index</a>
-    <a href="#">Login</a>
+    <a href="../index.php">Index</a>
+    <a href="login.php">login</a>
 </div>
 
 <div class="container">

@@ -5,6 +5,6 @@ function limpiar_dato($dato){
 }
 
 function verificar_rol($rol){
-    return isset($_SESSION['user_role'])&& $_SESSION['USER_ROLE'] === $rol;
+    return isset($_SESSION['user_role'])&& $_SESSION['user_role'] === $rol;
 }
 ?>
